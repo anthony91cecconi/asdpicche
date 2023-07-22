@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'asdpicche';
+
+  array : string[] = [
+    "mirko",
+    "nancy",
+    "marika"
+  ]
+
+
+
 }
