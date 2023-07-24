@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CampionatiComponent } from './pages/campionati/campionati.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CalendariComponent } from './pages/calendari/calendari.component';
+import { TabellaComponent } from './pages/calendari/tabella/tabella.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CalendariComponent } from './pages/calendari/calendari.component';
     NavBarComponent,
     CampionatiComponent,
     HomeComponent,
-    CalendariComponent
+    CalendariComponent,
+    TabellaComponent
   ],
   imports: [
     BrowserModule,
