@@ -8,69 +8,290 @@ import { Anno } from 'src/app/models/anno.model';
 })
 export class CalendariComponent {
 
-  anni : Anno[] = [
+  public anni : Anno[] = [
     {
       anno:2023,
       mesi: [
         {
           nome:"settembre",
-          eventi: [
+          giorni: [
             {
-              data : 1,
-              giorno: "venerdi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 4,
-              giorno: "lunedi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 5,
-              giorno: "martedi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 6,
-              giorno: "mercoledi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 8,
-              giorno: "venerdi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 11,
-              giorno: "lunedi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 12,
-              giorno: "martedi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
             },
             {
-              data : 13,
-              giorno: "mercoledi",
-              orario: "19:00-21,00/21,00-23,00" ,
-              partecipanti: [
-              ] ,
-            }
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+          ]
+        },
+        {
+          nome:"ottobre",
+          giorni: [
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
+            {
+              eventi:[
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "19:00-21,00" ,
+                  partecipanti: [
+                  ] ,
+                },
+                {data : 1,
+                  giorno: "venerdi",
+                  orario: "21,00-23,00" ,
+                  partecipanti: [
+                  ] ,
+                }
+              ]
+              
+            },
           ]
         }
       ] 

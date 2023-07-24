@@ -1,9 +1,8 @@
 <app-nav-bar></app-nav-bar>
 <div class="stat ">
-    <div class="start inlinee">
-        <div class="inlinee">
-            <app-tabella></app-tabella>
-
+    <div class="start inlinee" *ngFor="let anno of anni">
+        <div class="inlinee" *ngFor="let mese of anno.mesi">
+            <app-tabella [mese]="mese" ></app-tabella>
         </div>
     </div>
 </div>

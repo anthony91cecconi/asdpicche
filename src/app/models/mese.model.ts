@@ -1,6 +1,6 @@
-import { Evento } from "./evento.model";
+import { Giorno } from "./giorno.model";
 
 export interface Mese{
     nome: string;
-    eventi : Evento[];
+    giorni : Giorno[];
 }

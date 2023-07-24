@@ -2,7 +2,7 @@
 
 <div class="flex marginleft0">    
     <div class="settembre marginleftt">
-        <h1><button class="borderr" (click)="visibile()" >settembre</button></h1>
+        <h1><button class="borderr" (click)="visibile()" >{{ mese.nome }}</button></h1>
         
         <div class="venticinque margintop marginleft1 larger" *ngIf="test" >
             <table class="table table-bordered borderrr">
@@ -16,13 +16,14 @@
                 </tr>
                 </thead>
                 <tbody class="grandezza">
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>lunedi</td>
-                        <td><button class="bottoncino">19,00-21,00</button></td>
-                        <td><button class="bottoncino">21,00-23,30</button></td>
+                    <tr *ngFor="let giorno of mese.giorni" >
+                        <th scope="row">{{giorno.eventi[0]?.data}}</th>
+                        <td>{{giorno.eventi[0]?.data}}</td>
+                        <td><button class="bottoncino">{{giorno.eventi[0]?.orario}}</button></td>
+                        <td><button class="bottoncino">{{giorno.eventi[1]?.orario}}</button></td>
                         <td></td>
                     </tr>
+                    <!--
                     <tr>
                         <th scope="row">5</th>
                         <td>martedi</td>
@@ -127,11 +128,12 @@
                         <td><button class="bottoncino">19,00-21,00</button></td>
                         <td><button class="bottoncino">21,00-23,30</button></td>
                         <td></td>
-                    </tr>
+                    </tr>-->
                 </tbody>
             </table>
         </div>
     </div>
+    <!--
     <div class="ottobre marginleftt">
         <h1><button class="borderr" (click)="visibile()" >ottobre</button></h1>
         
@@ -316,7 +318,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <th scope="row">7</th>
+                        <th scope="row">7</th>g
                         <td>martedi</td>
                         <td><button class="bottoncino">19,00-21,00</button></td>
                         <td><button class="bottoncino">21,00-23,30</button></td>
@@ -1396,7 +1398,7 @@
             </table>
         </div>
     </div>
-    
+-->
 </div>
 
 
