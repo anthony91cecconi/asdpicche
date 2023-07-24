@@ -1,8 +1,11 @@
-<app-nav-bar></app-nav-bar>
-<div class="stat ">
-    <div class="start inlinee" *ngFor="let anno of anni">
-        <div class="inlinee" *ngFor="let mese of anno.mesi">
-            <app-tabella [mese]="mese" ></app-tabella>
+<div class="colore">
+    <app-nav-bar></app-nav-bar>
+    <div class="stat flex">
+        <h1 class="grosso">ANNO 2023/2024</h1>  
+        <div class="start inlinee" *ngFor="let anno of anni">
+            <div class="aaaa" *ngFor="let mese of anno.mesi">
+                <app-tabella class="tabella" [mese]="mese" ></app-tabella>
+            </div>
         </div>
     </div>
 </div>
